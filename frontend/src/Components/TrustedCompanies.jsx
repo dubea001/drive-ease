@@ -1,13 +1,12 @@
-import React from 'react';
 import { assets } from '../assets/assets';
 
 const TrustedCompanies = () => {
     return (
-        <div className=''>
-            <p className='text-2xl text-center text-gray mb-4 font-semibold'>
+        <div className='mx-4'>
+            <p className='text-lg md:text-2xl text-center text-gray mb-4 font-semibold'>
                 Trusted Manufacturers
             </p>
-            <div className='wrapper flex items-center justify-center gap-1 md:gap-3'>
+            <div className='wrapper flex items-center justify-center md:gap-3'>
                 <div className='item item1 flex items-center justify-center flex-col'>
                     <img src={assets.Audi} alt='Audi' className='w-16' />{' '}
                     <p className='text-primary mt-3 text-xs'>Audi</p>

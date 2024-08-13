@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FiPlusCircle, FiMinusCircle } from 'react-icons/fi';
 
 const Faq = () => {
@@ -11,7 +11,7 @@ const Faq = () => {
         }));
     };
     return (
-        <div className='mt-12 px-16 text-center py-12' id='faq'>
+        <div className='mt-12 text-center px-8' id='faq'>
             {' '}
             <p className='text-sm text-primary mb-2'>F.A.Qs.</p>
             <h3 className='text-3xl md:w-1/2 md:mx-auto font-semibold mb-4'>
@@ -37,7 +37,7 @@ const Faq = () => {
                         )}
                     </div>
                     {viewAnswer[0] && (
-                        <p className='mx-8 py-4 text-gray text-start text-[14px] md:text-[1rem]'>
+                        <p className='py-4 max-w-[80%] text-gray text-start text-[14px] md:text-[1rem]'>
                             No, DriveEase requires renters to be atleast 18
                             years old.
                         </p>
@@ -61,7 +61,7 @@ const Faq = () => {
                         )}
                     </div>
                     {viewAnswer[1] && (
-                        <p className='mx-8 py-4 text-gray text-start text-[14px] md:text-[1rem]'>
+                        <p className='py-4 max-w-[80%] text-gray text-start text-[14px] md:text-[1rem]'>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Aperiam repellat odit illo vel debitis
                             corrupti.
@@ -86,7 +86,7 @@ const Faq = () => {
                         )}
                     </div>
                     {viewAnswer[2] && (
-                        <p className='mx-8 py-4 text-gray text-start text-[14px] md:text-[1rem]'>
+                        <p className='py-4 max-w-[80%] text-gray text-start text-[14px] md:text-[1rem]'>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Aperiam repellat odit illo vel debitis
                             corrupti.
@@ -111,7 +111,7 @@ const Faq = () => {
                         )}
                     </div>
                     {viewAnswer[3] && (
-                        <p className='mx-8 py-4 text-gray text-start text-[14px] md:text-[1rem]'>
+                        <p className='py-4 max-w-[80%] text-gray text-start text-[14px] md:text-[1rem]'>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Aperiam repellat odit illo vel debitis
                             corrupti.
@@ -136,7 +136,7 @@ const Faq = () => {
                         )}
                     </div>
                     {viewAnswer[4] && (
-                        <p className='mx-8 py-4 text-gray text-start text-[14px] md:text-[1rem]'>
+                        <p className='py-4 max-w-[80%] text-gray text-start text-[14px] md:text-[1rem]'>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Aperiam repellat odit illo vel debitis
                             corrupti.

@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaLocationDot, FaCalendarDays } from 'react-icons/fa6';
 import { FaCar } from 'react-icons/fa';
 import { MdAccessTime } from 'react-icons/md';

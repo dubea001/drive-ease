@@ -15,8 +15,21 @@ import Bruno from './bruno-fernandez.jpg';
 import Jamie from './jamie-fassonaki.jpg';
 import Nelson from './nelson-becker.jpg';
 
+import rolls from './cars/rolls.png';
+import mercedes from './cars/mercedes.png';
+import hyundai from './cars/hyundai.png';
+import ford from './cars/Ford.png';
+import ferrari from './cars/ferrari.png';
+import coaster from './cars/coaster.png';
+
 
 export const assets = {
+  rolls,
+  mercedes,
+  hyundai,
+  ford,
+  ferrari,
+  coaster,
   HeaderBg,
   Audi,
   BMW,

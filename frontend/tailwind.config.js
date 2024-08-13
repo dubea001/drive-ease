@@ -17,6 +17,7 @@ module.exports = {
             scrollLeft: 'scrollLeft 30s linear infinite',
             fadein3s: 'fadein 3s',
             fadein2s: 'fadein 2s',
+            fadein1s: 'fadein 1.5s',
         },
         fontFamily: {
             Inter: '"Inter", sans-serif',

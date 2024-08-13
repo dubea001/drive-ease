@@ -1,4 +1,3 @@
-import React from 'react';
 import { CgNotes } from 'react-icons/cg';
 import { FaLocationDot } from 'react-icons/fa6';
 import { FaCar } from 'react-icons/fa';
@@ -6,7 +5,7 @@ import { assets } from '../assets/assets';
 
 const Advantages = () => {
     return (
-        <div className='mt-12 animate-fadein3s' id='advantages'>
+        <div className='mt-12 animate-fadein3s px-8' id='advantages'>
             <div className='text-center'>
                 <p className='text-sm text-primary mb-2'>How It Works</p>
                 <h3 className='text-3xl font-semibold'>3 Simple Steps</h3>
@@ -72,8 +71,8 @@ const Advantages = () => {
                             className='rounded-lg'
                         />
                     </div>
-                    <div className='md:w-[50%] flex flex-wrap p-2 gap-4 items-center justify-evenly'>
-                        <div className='flex flex-col justify-between items-center md:w-[40%] min-h-48 shadow-lg rounded-lg p-4 md:px-8 hover:bg-secondary'>
+                    <div className='md:w-[50%] flex flex-wrap gap-4 items-center justify-evenly px-8 py-4'>
+                        <div className='flex flex-col justify-between items-center md:w-[40%] min-h-48 shadow-lg rounded-lg px-8 py-4 md:px-4 hover:bg-secondary'>
                             <div className='my-4 border-2 flex items-center justify-center border-primary rounded-full p-4 w-12 h-12'>
                                 <span className='font-semibold text-2xl text-primary'>
                                     1
@@ -90,7 +89,7 @@ const Advantages = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='flex flex-col justify-between items-center md:w-[40%] min-h-48 shadow-lg rounded-lg p-4 md:px-8 hover:bg-secondary'>
+                        <div className='flex flex-col justify-between items-center md:w-[40%] min-h-48 shadow-lg rounded-lg px-8 py-4 md:px-4 hover:bg-secondary'>
                             <div className='my-4 border-2 flex items-center justify-center border-primary rounded-full p-4 w-12 h-12'>
                                 <span className='font-semibold text-2xl text-primary'>
                                     2
@@ -107,7 +106,7 @@ const Advantages = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='flex flex-col justify-between items-center md:w-[40%] min-h-48 shadow-lg rounded-lg p-4 md:px-8 hover:bg-secondary'>
+                        <div className='flex flex-col justify-between items-center md:w-[40%] min-h-48 shadow-lg rounded-lg px-8 py-4 md:px-4 hover:bg-secondary'>
                             <div className='my-4 border-2 flex items-center justify-center border-primary rounded-full p-4 w-12 h-12'>
                                 <span className='font-semibold text-2xl text-primary'>
                                     3
@@ -124,7 +123,7 @@ const Advantages = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='flex flex-col justify-between items-center md:w-[40%] min-h-48 shadow-lg rounded-lg p-4 md:px-8 hover:bg-secondary'>
+                        <div className='flex flex-col justify-between items-center md:w-[40%] min-h-48 shadow-lg rounded-lg px-8 py-4 md:px-4 hover:bg-secondary'>
                             <div className='my-4 border-2 flex items-center justify-center border-primary rounded-full p-4 w-12 h-12'>
                                 <span className='font-semibold text-2xl text-primary'>
                                     4

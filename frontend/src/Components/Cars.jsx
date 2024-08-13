@@ -1,17 +1,11 @@
-import React from 'react';
-import cars from '../Apis/Cars.json';
+import { cars } from '../Utils/api';
 import { PiSeatLight } from 'react-icons/pi';
 import { CiStar } from 'react-icons/ci';
 import { LiaTachometerAltSolid } from 'react-icons/lia';
 
-const images = import.meta.glob('../assets/cars/*.png', {
-    eager: true,
-    as: 'url',
-});
-
 const Cars = () => {
     return (
-        <div className='mt-12' id='cars'>
+        <div className='mt-12 px-8' id='cars'>
             <div className='mb-4'>
                 <h1 className='text-content font-bold text-4xl text-center'>
                     Our Top Deals
@@ -21,16 +15,10 @@ const Cars = () => {
                 {cars.map((car, index) => (
                     <div
                         key={index}
-                        className='bg-white flex flex-col items-center justify-between rounded-lg shadow-md overflow-hidden p-4 transition-transform duration-300 hover:transform hover:scale-105 hover:bg-secondary'
+                        className='bg-white flex flex-col items-center justify-between rounded-lg shadow-md overflow-hidden p-4 transition-transform duration-300 hover:transform hover:scale-105 '
                     >
                         <img
-                            src={
-                                images[
-                                    `../assets/cars/${car.image
-                                        .split('/')
-                                        .pop()}`
-                                ]
-                            }
+                            src={car.image}
                             alt={car.name}
                             className='w-full h-48 object-cover rounded-lg'
                         />

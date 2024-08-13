@@ -10,8 +10,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  min-height: 4000px;
+
+.active {
+  @apply text-primary;
 }
 
 .overlay::before {
